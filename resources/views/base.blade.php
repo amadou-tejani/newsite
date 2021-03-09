@@ -29,6 +29,9 @@
         <p><a href="/">revenir à la page d'accueil</a></p>
         <footer>
                 <p>c'est la partie pied de page !</p>
+                @if(Route::is('contact'))
+                <p>c'est la notre page contact !</p>
+                @endif
         </footer>
 </body>
 
